@@ -1,6 +1,6 @@
 import showdown from 'showdown';
 import Component from '@ember/component';
-import { htmlSafe } from '@ember/string';
+import { htmlSafe } from '@ember/template';
 import { get, computed } from '@ember/object';
 import { getOwner } from '@ember/application';
 import layout from '../templates/components/markdown-to-html';
